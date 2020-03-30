@@ -1,0 +1,9 @@
+export const USER_REMOVED = "USER_REMOVED";
+export const REORDER_USERS = "REORDER_USERS";
+export const SET_CURRENT_USER = "SET_CURRENT_USER";
+export const FETCH_USERS = "FETCH_USERS";
+export const EDIT_VIEW = "EDIT_VIEW";
+export const PROFILE_VIEW = "PROFILE_VIEW";
+export const DELETE_VIEW = "DELETE_VIEW";
+export const DEFAULT_VIEW = "DEFAULT_VIEW";
+export const USER_EDITED = "USER_EDITED";
