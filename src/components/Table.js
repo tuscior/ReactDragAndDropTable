@@ -14,7 +14,7 @@ const reorder = (list, startIndex, endIndex) => {
 
 const TableHeaders = () => (
   <div className="grid ui five column">
-    <h5 className="column">Index</h5>
+    <h5 className="column margin-off">Index</h5>
     <h5 className="column">Username</h5>
     <h5 className="column">Name</h5>
     <h5 className="column">Surename</h5>

@@ -63,7 +63,9 @@ class EditView extends React.Component {
                 handleChange={(ev, name) => this.handleChange(ev, name)}
               />
             </div>
-            <button onClick={this.onSave}>Save</button>
+            <button className="ui primary button" onClick={this.onSave}>
+              Save
+            </button>
           </form>
           <div className="extra content"></div>
         </div>

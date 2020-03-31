@@ -21,7 +21,6 @@ export const fetchUsers = () => async dispatch => {
 
 export const userEdit = user => async dispatch => {
   const { data } = await UsersAPI.put(`${user._id}`, user);
-  console.log(data, user);
   dispatch({
     type: USER_EDITED,
     payload: data

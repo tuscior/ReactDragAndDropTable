@@ -41,3 +41,12 @@
     width: 100px;
     margin-top: 10px !important;
 }
+.margin-off {
+    margin-top: calc(2rem - .14285714em) !important;
+}
+.description div:first-of-type {
+    margin-top: 5px;
+}
+.description div {
+    margin-bottom: 5px;
+}
